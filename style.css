@@ -33,6 +33,8 @@ nav li:hover {
 }
 
 nav a {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
     text-decoration: none;
     color: white;
 }
