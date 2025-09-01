@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4effa;
+}
+
+header {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem;
+    background: #9b72cf;
+}
+
+header img {
+    width: 10rem;
+}
+
+nav ul {
+    display: flex; 
+    gap: 30px;
+    list-style: none;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
