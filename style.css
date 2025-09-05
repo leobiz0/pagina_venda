@@ -38,3 +38,19 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+#img1 {
+    width: 50vh;
+    border-radius: 10px;
+}
+
+.info {
+    border: 2px solid #c8b1e4;
+    border-radius: 8px;
+}
