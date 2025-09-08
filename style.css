@@ -39,7 +39,7 @@ nav a {
     color: white;
 }
 
-section {
+.primeirasection {
     display: flex;
     justify-content: space-around;
     margin-top: 75px;
@@ -47,10 +47,88 @@ section {
 
 #img1 {
     width: 50vh;
+    height: 50vh;
     border-radius: 10px;
+    border: 6px solid #9b72cf;
+    margin-top: 35px;
 }
 
-.info {
-    border: 2px solid #c8b1e4;
+.info{
+    border: 6px solid #9b72cf;
     border-radius: 8px;
+    padding: 35px;
+    font-family: "roboto", sans serif;
+}
+
+.acao a{
+    display: block;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #c8b1e4;
+    color: white;
+    background: #c8b1e4;
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.acao a:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+}
+
+.carac h3{
+    margin-block: 10px;
+    text-align: left;
+}
+
+.carac li{
+    padding: 3px;
+}
+
+h1{
+    font-family: "roboto", sans serif;
+
+}
+
+.preco{
+    margin-bottom: 10px;
+}
+
+.divisor{
+   display: flex;
+}
+
+.segundasection {
+    font-family: "roboto", sans serif;
+    margin-left: 15%;
+    margin-top: 70px;
+
+    h2{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    margin-block: 20px;
+    font-size: 50px;
+    }
+
+    p{
+        margin-left: 10px;
+        margin-right: 400px;
+        margin-top: 12px;
+        font-size: 20px;
+    }
+
+    img{
+        margin-bottom: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .ruido{
+        margin-left:  85px;
+    }
+
+
 }

@@ -38,3 +38,52 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
+#img2{
+    width: 42vh;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 25px 25px;
+    border: 6px solid #9b72cf;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.p1{
+    width: 125vh;
+    margin: 60px 60px;
+    font-family: "roboto", sans serif;
+    padding: 7px;
+    text-align: justify;
+    font-size: 4vh;
+}
+
+.conteudo2{
+    display: flex;
+}
+
+.p2{
+     width: 125vh;
+    margin: 60px 60px;
+    font-family: "roboto", sans serif;
+    padding: 7px;
+    text-align: justify;
+    font-size: 4vh;
+}
+
+#img3{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 25px 25px;
+    border: 6px solid #9b72cf;
+}
+
+.divider{
+    height: 2px;
+    background: #532b88;
+    margin: 4rem 4rem
+    
+}
